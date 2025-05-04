@@ -1,7 +1,7 @@
 import MovieCard from "./MovieCard"
 
 const MovieList = ({ movies }) => {
-    if(!movies.length) {
+    if(movies.length < 1) {
         return <p>No Movies Found. Please try searching something else.</p>
     }
 

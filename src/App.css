@@ -4,11 +4,12 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color: #f0f0f0;
+  background-color: #f9f9f9;
   padding: 20px;
 }
+
 .app-header {
-  background-color: #6200ea;
+  background-color: #0066ff;
   color: white;
   padding: 20px 0;
   width: 100%;
@@ -16,7 +17,7 @@
 }
 
 .app-footer {
-  background-color: #6200ea;
+  background-color: #0066ff;
   color: white;
   padding: 10px 0;
   width: 100%;
@@ -103,14 +104,14 @@ a {
 }
 
 .search-bar input:focus {
-  border-color: #6200ea;
-  box-shadow: 0 0 5px #6200ea;
+  border-color: #0066ff;
+  box-shadow: 0 0 5px #0066ff;
 }
 
 .search-bar button {
   padding: 10px 15px;
   font-size: 16px;
-  background-color: #6200ea;
+  background-color: #0066ff;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -119,7 +120,7 @@ a {
 }
 
 .search-bar button:hover {
-  background-color: #4500b8;
+  background-color: #0047b3;
 }
 
 .movie-list {
@@ -146,7 +147,7 @@ a {
 
 .movie-search-container h1 {
   font-size: 32px;
-  color: #6200ea;
+  color: #0066ff;
   margin-bottom: 20px;
 }
 
