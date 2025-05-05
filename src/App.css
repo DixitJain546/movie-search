@@ -3,9 +3,9 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  min-height: 100vh;
   background-color: #f9f9f9;
-  padding: 20px;
+  padding: 0px 20px;
 }
 
 .app-header {
@@ -22,8 +22,6 @@
   padding: 10px 0;
   width: 100%;
   text-align: center;
-  position: obsolute;
-  bottom: 0;
 }
 
 body {

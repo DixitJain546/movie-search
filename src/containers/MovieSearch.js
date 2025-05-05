@@ -4,12 +4,11 @@ import SearchBar from "../components/SearchBar";
 import MovieList from "../components/MovieList";
 
 const MovieSearch = () => {
-    const { movies } = useContext(MovieContext);
 
     return (
         <div className="movie-search-container">
             <SearchBar />
-            <MovieList movies={ movies }/>
+            <MovieList />
         </div>
     );
 };

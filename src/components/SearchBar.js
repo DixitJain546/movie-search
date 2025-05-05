@@ -6,6 +6,10 @@ const SearchBar = () => {
     const { searchMovies } = useFetchMovies();
 
     const handleSearch = () => {
+        if (searchTerm.length < 3) {
+            alert("Please enter a valid Search term. Minimum 3 characters required.");
+            return;
+        }
         searchMovies(searchTerm);
     };
 

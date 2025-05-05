@@ -1,6 +1,14 @@
 import MovieCard from "./MovieCard"
+import { useContext } from "react"
+import { MovieContext } from "../context/MovieContext"
 
-const MovieList = ({ movies }) => {
+const MovieList = () => {
+
+    const { movies } = useContext(MovieContext);
+
+    if(movies === null) {
+        return <></>
+    }
     if(movies.length < 1) {
         return <p>No Movies Found. Please try searching something else.</p>
     }
